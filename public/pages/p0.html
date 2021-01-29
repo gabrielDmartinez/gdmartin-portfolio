@@ -1,38 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Describe this page." />
-        <title>Project 0</title>
-        <style>
-        canvas {
-          border: 1px solid black;
-          position:fixed;
-          left:0;
-          top:0;
-          width:100%;
-          height:100%;
-        }
-      </style>
-    </head>
-    <body>
-    <canvas id="mainCanvas">
-      </canvas>
-    </body>
-    <script>
-        var c = document.getElementById("mainCanvas");
-        var ctx = c.getContext("2d");
-        ctx.beginPath();
-        ctx.arc(50, 50, 50, 0, Math.PI * 2, false);
-        ctx.fillstyle = "blue";
-        ctx.fill();
-        ctx.stroke();
-    </script>
-    <footer>
+<html>
+<head>
+<style>
 
-    </footer>
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
 
-<!-- Scripts-->
+<div class="container">
+  <div class="center">
+    <button id="play">Play</button>
+  </div>
+</div>
 
+</body>
 </html>
