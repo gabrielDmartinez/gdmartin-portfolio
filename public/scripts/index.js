@@ -10,5 +10,5 @@ $("#det-p0").on("click", e => {
 });
 
 $("#src-p0").on("click", e => {
-    window.location.assign(`${URL}/pages/p0details.html`);
+    window.location.assign(`${URL}/pages/p0source.html`);
 });
