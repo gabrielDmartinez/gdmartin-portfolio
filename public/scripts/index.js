@@ -13,8 +13,6 @@ $(document).ready(function() {
     this.play();
   }, false);
 
-
-
   $('#play').click(function() {
     if (audioElement.paused == false) {
       audioElement.pause();
