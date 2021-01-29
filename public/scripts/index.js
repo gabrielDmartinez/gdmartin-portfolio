@@ -4,3 +4,7 @@ const URL = location.origin; // root domain
 $("#go-p0").on("click", e => {
     window.location.assign(`${URL}/pages/p0.html`);
 });
+
+$("#det-p0").on("click", e => {
+    window.location.assign(`${URL}/pages/p0details.html`);
+});
