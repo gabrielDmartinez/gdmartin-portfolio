@@ -8,3 +8,7 @@ $("#go-p0").on("click", e => {
 $("#det-p0").on("click", e => {
     window.location.assign(`${URL}/pages/p0details.html`);
 });
+
+$("#src-p0").on("click", e => {
+    window.location.assign(`${URL}/pages/p0details.html`);
+});
